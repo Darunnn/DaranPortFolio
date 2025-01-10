@@ -38,7 +38,7 @@ const NavBar: React.FC = () => {
                 </div>
                 <ul className={`lg:flex space-x-4 ${isOpen ? 'block' : 'hidden'} lg:block`}>
                     <li>
-                        <Link href="/home" className="text-gray-300 hover:text-white">Home</Link>
+                        <Link href="/" className="text-gray-300 hover:text-white">Home</Link>
                     </li>
                     <li>
                         <Link href="/about" className="text-gray-300 hover:text-white">About</Link>
